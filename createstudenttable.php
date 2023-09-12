@@ -12,7 +12,7 @@ if(mysqli_query($con,$sql))
     echo "table is created";
 }
 else{
-    echo "table not created".mysqli_error($con);
+    echo ("table not created".mysqli_error($con));
 }
 mysqli_close($con);
 
